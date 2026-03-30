@@ -27,15 +27,12 @@ No installations required — this is a hosted web app
 Running Locally
 
 Clone the repository:
-
-bash   git clone https://github.com/your-username/studify.git
+bash   git clone https://github.com/sanchezmarco25/studify.git
 
 Navigate into the project folder:
-
 bash   cd studify
 
 Open index.html directly in your browser, or use a local server:
-
 bash   # Using VS Code Live Server extension (recommended)
    # Right-click index.html → Open with Live Server
 
@@ -45,16 +42,15 @@ Deploying to Firebase (optional)
 If you want to deploy your own instance:
 
 Install Firebase CLI:
-
-bash   npm install -g firebase-tools
+bash   
+npm install -g firebase-tools
 
 Login and initialize:
-
-bash   firebase login
-   firebase init
+bash   
+firebase login
+firebase init
 
 Deploy:
-
 bash   firebase deploy
 
 Project Structure
